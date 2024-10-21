@@ -17,6 +17,7 @@ for i in range(1, N):
             for f in range(len(ucl)):
                 if i + j + ucl[f] == N and ucl[f] > 1:
                     count += 1
+                    print(i, j, ucl[f])
 fo.write(f"{count}")
 fi.close()
 fo.close()
